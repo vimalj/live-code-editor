@@ -5,9 +5,9 @@
   <!-- Site Information -->
   <meta charset="utf-8" />
   <title>Live Code Editor</title>
-
   <meta name="description" content="Preview HTML, CSS, and JavaScript live in your browser in realtime." />
   <meta name="keywords" content="editor, realtime editor, codepen, stackoverflow, HTML, CSS, JavaScript" />
+  
 
   <!-- Cascading Style Sheets -->
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -16,22 +16,23 @@
   <!-- JavaScript -->
   <script src="js/jquery.min.js" type="text/javascript"></script>
   <script src="js/editor.js" type="text/javascript"></script>
-  
-</head>
 
-<body>
+  
+
+  <!-- Favicon and Thumbnails -->
+  <link rel="shortcut icon" type="image/png" href="img/icon/favicon.png">
+  
+
+</head>
 <header style="color:white"; align="center";> Insert code in HTML,CSS and JAVASCRIPT to see output </header>
+<body>
   <section>
     <h1>Live Code Editor</h1><a class="clearLink" href="#" title="Click to clear all">clear</a>
-    <textarea id="html" value="" placeholder="HTML" autocapitalize="off" autofocus> </textarea>
-    <textarea id="css" value="" placeholder="CSS" autocapitalize="off"> </textarea>
-    <textarea id="js" value="" placeholder="JavaScript" autocapitalize="off"> </textarea>
+    <textarea id="html" value="" placeholder="HTML" autocapitalize="off" autofocus></textarea>
+    <textarea id="css" value="" placeholder="CSS" autocapitalize="off"></textarea>
+    <textarea id="js" value="" placeholder="JavaScript" autocapitalize="off"></textarea>
     <iframe id="preview"></iframe>
   </section>
-
-  <footer style="color:white"; align="center";>output </footer>
 </body>
-
-
+<footer style="color:white"; align="center";>output </footer>
 </html>
-
